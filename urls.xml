@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urls>
-</urls>
+	<item>
+		<describe>php性能优化</describe>
+		<url>http://www.imooc.com/learn/205</url>
+	</item>
+	<item>
+		<describe>git教程</describe>
+		<url>http://www.maiziedu.com/lesson/70/</url>
+	</item>
+	<item>
+		<describe>git本地教程</describe>
+		<url>http://www.jikexueyuan.com/course/479.html?hmsr=job_blog_banner_git0122</url>
+	</item>
+	<item>
+		<describe>ANGULARJS</describe>
+		<url>http://www.zouyesheng.com/angular.html</url>
+	</item>
+	<item>
+		<describe>angular2048</describe>
+		<url>http://www.ng-newsletter.com/posts/building-2048-in-angularjs.html</url>
+	</item>
+	
+<item><describe>汇智网</describe><url>http://www.hubwiz.com/</url></item><urls><item/></urls><item><describe>angular教程</describe><url>http://down.51cto.com/zt/5851</url></item><item><describe>angular视频</describe><url>http://www.icoolxue.com/album/show/102</url></item><item><describe>中文</describe><url>http://www.imooc.com/video/4285</url></item><item><describe>慕课</describe><url>http://www.imooc.com/course/list</url></item><item><describe>本群禁字</describe><url>http://zzz.com/pic.php</url></item><item><describe>颜色问题</describe><url>http://blog.sina.com.cn/s/blog_672c5a470100nts3.html</url></item><item><describe>bootstrap</describe><url>http://www.bootcss.com</url></item></urls>

@@ -26,6 +26,7 @@ $ref=$_SERVER['HTTP_REFERER'];
 	.file span a:hover{color: inherit;}
 	.file span:hover{cursor: pointer;color: black;font-weight: bolder;}
 	.file .deletefile,.file .deletefolder{font-size: 9px;color:red;}
+	.dict{width: 420px;height:220px;position: fixed;left: 0px;}
 	</style>
 </head>
 <body>
@@ -70,6 +71,10 @@ $ref=$_SERVER['HTTP_REFERER'];
 		<div style='clear:both;'></div>
 	</div>
 	
+	<!---888888888888888888888888888880词典 --=---------------- -->
+	<div class="dict">
+		<iframe src="./dict/index.php" style="height:100%;width:100%;border:0;"></iframe>
+	</div>
 </body>
 </html>
 <script>
@@ -145,6 +150,13 @@ $ref=$_SERVER['HTTP_REFERER'];
 				alert(data);
 				location.reload(true);
 			})
+		})
+		/////////////////////////
+		$('.dict').css('top',$(window).height()-220);
+		$(window).resize(function(){ 
+
+				$('.dict').css('top',$(window).height()-220);
+
 		})
 	})
 </script>
